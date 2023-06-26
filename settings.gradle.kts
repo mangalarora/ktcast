@@ -14,4 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ktcast"
 
+includeBuild("build-logic")
+
 include (":app")
