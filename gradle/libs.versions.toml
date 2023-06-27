@@ -1,0 +1,12 @@
+[versions]
+androidPluginVersion = "8.0.2"
+kotlinPluginVersion = "1.8.20"
+
+[libraries]
+jetbrains-kotlin-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinPluginVersion" }
+android-tools = { module = "com.android.tools.build:gradle", version.ref = "androidPluginVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidPluginVersion" }
+android-library = { id = "com.android.library", version.ref = "androidPluginVersion" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinPluginVersion" }
