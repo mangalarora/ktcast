@@ -19,3 +19,4 @@ rootProject.name = "ktcast"
 includeBuild("build-logic")
 
 include (":app")
+include(":common:ui-kit")
